@@ -50,19 +50,19 @@ with exp_col:
 
                     """)
 
-st.sidebar.title("❄️ SnowFlake Cheatsheet 📄")
-st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
+# st.sidebar.title("❄️ SnowFlake Cheatsheet 📄")
+# st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
 
-st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
+# st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
 
-with st.sidebar.expander("See My Other Streamlit Apps"):
-    st.caption("Sophisticated Palette: [App](https://sophisticated-palette.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/create-a-color-palette-from-any-image/) 📝")
-    st.caption("Wordler: [App](https://wordler.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/the-ultimate-wordle-cheat-sheet/) 📝")
-    st.caption("Koffee of the World: [App](https://koffee.streamlit.app/) 🎈")
+# with st.sidebar.expander("See My Other Streamlit Apps"):
+#     st.caption("Sophisticated Palette: [App](https://sophisticated-palette.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/create-a-color-palette-from-any-image/) 📝")
+#     st.caption("Wordler: [App](https://wordler.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/the-ultimate-wordle-cheat-sheet/) 📝")
+#     st.caption("Koffee of the World: [App](https://koffee.streamlit.app/) 🎈")
    
-with st.sidebar.expander("ℹ️ **Latest Snowflake Release Notes**"):
-    st.markdown("""Stay frosty and keep up with the coolest updates on the Snowflake website [here](https://docs.snowflake.com/en/release-notes/new-features).""")
-cols = st.columns(2)
+# with st.sidebar.expander("ℹ️ **Latest Snowflake Release Notes**"):
+#     st.markdown("""Stay frosty and keep up with the coolest updates on the Snowflake website [here](https://docs.snowflake.com/en/release-notes/new-features).""")
+# cols = st.columns(2)
 
 def st_code_block(url, caption=None, code=None):
     # prefill the http address for the sql-reference url
@@ -1764,32 +1764,32 @@ with st.sidebar.expander("🗺 Legend", expanded=True):
     - The [☁️](https://docs.snowflake.com/) icon in each section will snow-flake you to the relevant section on the documentation website.  
     """)
 
-st.sidebar.info("""
-Note: This online cheatsheet for Snowflake is based on materials from the [Snowflake documentation website](https://docs.snowflake.com/). 
-    The content and logo of Snowflake used in this application are the intellectual property of Snowflake Inc. and are used here with proper attribution. 
-    This cheatsheet is not affiliated with or endorsed by Snowflake Inc. Please refer to the official Snowflake documentation for detailed information and updates.
-"""
-)
+# st.sidebar.info("""
+# Note: This online cheatsheet for Snowflake is based on materials from the [Snowflake documentation website](https://docs.snowflake.com/). 
+#     The content and logo of Snowflake used in this application are the intellectual property of Snowflake Inc. and are used here with proper attribution. 
+#     This cheatsheet is not affiliated with or endorsed by Snowflake Inc. Please refer to the official Snowflake documentation for detailed information and updates.
+# """
+# )
 
 
-st.sidebar.success("""
-This guide is limited in scope and offers just a glimpse into the expansive array of Snowflake's *cool* features—pun intended. 
-The reason for this is threefold:  
-1. Time is finite, as suggested by modern physics. 
-2. Snowflake is breaking the laws of physics by adding features faster than the speed of light, making it impossible for any mortal to catch up.
-3. I am a mortal.
+# st.sidebar.success("""
+# This guide is limited in scope and offers just a glimpse into the expansive array of Snowflake's *cool* features—pun intended. 
+# The reason for this is threefold:  
+# 1. Time is finite, as suggested by modern physics. 
+# 2. Snowflake is breaking the laws of physics by adding features faster than the speed of light, making it impossible for any mortal to catch up.
+# 3. I am a mortal.
 
-But here's where you come in, my knowledgeable friend. You likely have insights, cool features, or corrections that could benefit the entire Snowflake community. 
-As an open-source project, I warmly (or should I say coolly? 🤔) welcome and eagerly look forward to your invaluable contribution. 
-Don't hesitate to jump to the GitHub repository to open an issue or start a pull request (PR) to suggest additions or modifications to the content. 
-Your expertise can help us keep this guide up-to-date and comprehensive.
-"""
-)
+# But here's where you come in, my knowledgeable friend. You likely have insights, cool features, or corrections that could benefit the entire Snowflake community. 
+# As an open-source project, I warmly (or should I say coolly? 🤔) welcome and eagerly look forward to your invaluable contribution. 
+# Don't hesitate to jump to the GitHub repository to open an issue or start a pull request (PR) to suggest additions or modifications to the content. 
+# Your expertise can help us keep this guide up-to-date and comprehensive.
+# """
+# )
 
-with st.sidebar.expander("Acknowledgments"):
-    st.markdown("""
-    I am incredibly grateful to my amazing Snowflake mentor, [Sang Hai](https://www.linkedin.com/in/sangvhai/), who is always sharing his extensive knowledge about the exciting and innovative features of Snowflake and guiding me in implementing them in my work. 
-    I would also like to express my heartfelt appreciation to [Kathryn Reck Harris](https://www.linkedin.com/in/kathrynreck/) and [Varun Chavakula](https://www.linkedin.com/in/varunchavakula/), my awesome Snowflake buddies, who always share the exhilarating ride of exploring Snowflake and provide invaluable insights and support.
+# with st.sidebar.expander("Acknowledgments"):
+#     st.markdown("""
+#     I am incredibly grateful to my amazing Snowflake mentor, [Sang Hai](https://www.linkedin.com/in/sangvhai/), who is always sharing his extensive knowledge about the exciting and innovative features of Snowflake and guiding me in implementing them in my work. 
+#     I would also like to express my heartfelt appreciation to [Kathryn Reck Harris](https://www.linkedin.com/in/kathrynreck/) and [Varun Chavakula](https://www.linkedin.com/in/varunchavakula/), my awesome Snowflake buddies, who always share the exhilarating ride of exploring Snowflake and provide invaluable insights and support.
 
-    Lastly, a special thanks to [**Jessica Smith**](https://www.linkedin.com/in/jessica-s-095a861b3/), a true champion of the Streamlit platform, for always encouraging me to create fun things in Streamlit and for her continuous support within the vibrant Streamlit community.
-    """)
+#     Lastly, a special thanks to [**Jessica Smith**](https://www.linkedin.com/in/jessica-s-095a861b3/), a true champion of the Streamlit platform, for always encouraging me to create fun things in Streamlit and for her continuous support within the vibrant Streamlit community.
+#     """)
