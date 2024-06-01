@@ -50,7 +50,7 @@ with exp_col:
 
                     """)
 
-# st.sidebar.title("❄️ SnowFlake Cheatsheet 📄")
+st.sidebar.title("❄️ SnowFlake Cheatsheet 📄")
 # st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
 
 # st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
@@ -62,7 +62,8 @@ with exp_col:
    
 # with st.sidebar.expander("ℹ️ **Latest Snowflake Release Notes**"):
 #     st.markdown("""Stay frosty and keep up with the coolest updates on the Snowflake website [here](https://docs.snowflake.com/en/release-notes/new-features).""")
-# cols = st.columns(2)
+
+cols = st.columns(2)
 
 def st_code_block(url, caption=None, code=None):
     # prefill the http address for the sql-reference url
@@ -1786,7 +1787,8 @@ with st.sidebar.expander("🗺 Legend", expanded=True):
 # """
 # )
 
-# with st.sidebar.expander("Acknowledgments"):
+with st.sidebar.expander("Acknowledgments"):
+    st.markdown("Made by Siavash Yasini")
 #     st.markdown("""
 #     I am incredibly grateful to my amazing Snowflake mentor, [Sang Hai](https://www.linkedin.com/in/sangvhai/), who is always sharing his extensive knowledge about the exciting and innovative features of Snowflake and guiding me in implementing them in my work. 
 #     I would also like to express my heartfelt appreciation to [Kathryn Reck Harris](https://www.linkedin.com/in/kathrynreck/) and [Varun Chavakula](https://www.linkedin.com/in/varunchavakula/), my awesome Snowflake buddies, who always share the exhilarating ride of exploring Snowflake and provide invaluable insights and support.
