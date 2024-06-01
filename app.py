@@ -42,8 +42,6 @@ with exp_col:
                 """)
         
         st.markdown("""
-                    If you happen to spot any errors or have suggestions for improving the descriptions or tips, please don't hesitate to reach out to me directly [here](https://www.linkedin.com/in/siavash-yasini/), or open an [issue](https://github.com/syasini/snowflake_cheatsheet/issues/new) on the GitHub page. Your feedback is invaluable—and relied upon—in keeping this guide accurate and useful.
-
                     👈 Don't forget to check the sidebar for additional info and layout options!
 
                     Now, go build something awesome on Snowflake! 🚀
